@@ -1,0 +1,35 @@
+.boxes {
+    width: 100%;
+    min-height: 750px;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .box {
+        width: 440px;
+        height: 586px;
+        background-color: #0d0d0d;
+    }
+}
+
+.boxes2 {
+    width: 100%;
+    min-height: 350px;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .box2 {
+        width: 317px;
+        height: 219px;
+        border: 5px solid white;
+        img{
+            width: 307px;
+            height: 209px;  
+        }
+    }
+}

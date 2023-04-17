@@ -1,0 +1,103 @@
+@media screen and (max-width: 1385px){
+    .MIM-containers{
+        height: 1800px;
+        .container{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            .text-column{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                margin-left: 0px;
+            }
+            a{
+                width: 350px;
+                height: 40px;
+            }
+        }
+    }
+    .boxes2{
+        flex-direction: column;
+        row-gap: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .about-header-under{
+        p{
+            font-size: 22px ;
+        }
+    }
+    .container-mission{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .mission-msg{
+            text-align: center;
+            justify-content: center;
+        }
+        .text-column-mission {
+            display: inherit;
+            align-items: none;
+            justify-content: none;
+            .mission-text-desc{
+                padding: 1em;
+                color: #FFF;
+            }
+          }
+    }
+}
+
+@media screen and (max-width: 1400px){
+.boxes{
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+}
+
+@media screen and (max-width: 1200px){
+.contact-form{
+    .submit{
+        a{
+            padding: 17px 250px;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 1140px){
+    .contact-us{
+        ul{
+            .contact{
+                font-size: 45px;
+            }
+            .contact-desc{
+                font-size: 20px;
+            }
+            .experience{
+                font-size: 20px;
+            }
+            a{
+                padding: 5px 120px;
+                span{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px){
+    .contact-form{
+        .submit{
+            a{
+                padding: 17px 175px;
+            }
+        }
+    }
+    }

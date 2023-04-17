@@ -1,0 +1,81 @@
+.product-header {
+    width: 100%;
+    height: 375px;
+    background-image: url(../images/metal-injection-molding-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: #fff;
+        font-size: 60px;
+    }
+}
+
+.contact-form{
+    max-width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    .submit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    a{
+        font-family: 'Poppins-SB', sans-serif;
+        background-color: #fff;
+        padding: 17px 300px;
+        text-decoration: none;
+        color: #1c1c1c;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .contact {
+        input {
+          padding: 14px;
+          font-family: 'Poppins-SB', sans-serif;
+          font-size: 16px;
+          letter-spacing: 0.9px;
+          width: 100%;
+          height: 60px;
+          background-color: #212121;
+          border: none;
+          margin-bottom: 21px;
+          display: block;
+          font-size: 14px;
+          color: #fff;
+          &:focus {
+            outline: none;
+            border: solid #fff 2px;
+          }
+          &:hover {
+            border: solid #fff 2px;
+          }
+        }
+        textarea {
+          word-wrap: break-word;
+          resize: none;
+          padding: 14px;
+          font-family: 'Poppins-SB', sans-serif;
+          font-size: 16px;
+          letter-spacing: 0.9px;
+          width: 100%;
+          min-height: 199px;
+          background-color: #212121;
+          border: none;
+          margin-bottom: 31px;
+          color: #fff;
+          &:focus {
+            outline: none;
+            border: solid #fff 2px;
+          }
+          &:hover {
+            border: solid #fff 2px;
+          }
+        }
+      }
+  }
